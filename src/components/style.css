@@ -1,0 +1,105 @@
+.container {
+    margin: auto;
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    font-size: 50px;
+}
+
+input {
+    background-color: lightgray;
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer button {
+    border: solid 3px lightcyan;
+    border-radius: 20px;
+    padding: 3px 5px;
+    margin: 0px 2px;
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+footer button:hover {
+    border: solid 4px greenyellow;
+    color: rgb(155, 24, 249);
+}
+
+form button:hover {
+    color: greenyellow;
+}
+
+li:hover {
+    color: lightcyan;
+    font-weight: bold;
+    border-color: greenyellow;
+    border-width: 2px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 1px lightcyan;
+    border-radius: 20px;
+    background-color: mediumpurple;
+}
+
+svg {
+    pointer-events: none;
+}
+
+li span {
+    margin-left: 5px;
+}
+
+span.Checked {
+    font-weight: bold;
+    color: greenyellow;
+    text-decoration: line-through;
+}
+
+footer span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    color: greenyellow;
+}
+
+button.Checked {
+    color: greenyellow;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.deleteButton svg {
+    color: darkred;
+    font-size: medium;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+input {
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* https://codepen.io/dmitrysharabin/pen/MWgQNYZ */
